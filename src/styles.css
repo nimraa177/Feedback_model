@@ -65,8 +65,8 @@ body {
   background-color: #4caf50;
   color: white;
 }
-.container2 {
-  width: 425%;
+.conatiner2 {
+  width: 45%;
   height: 100px;
   margin: 14% auto;
   background-color: #1a1832;
@@ -75,6 +75,11 @@ body {
   display: flex;
   flex-direction: column;
 }
-.feedback-txt {
+#feedback {
   color: white;
+  text-align: center;
+}
+.cross-btn{
+  display: block;
+  border-radius: 5px;
 }

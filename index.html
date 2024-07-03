@@ -12,16 +12,16 @@
         How likely are you to recommend this model to someone you know 💟
       </h1>
       <div class="feedback-numbers">
-        <button onclick="submitNumber(1)" class="number">1</button
-        ><button onclick="submitNumber(2)" class="number">2</button
-        ><button onclick="submitNumber(3)" class="number">3</button
-        ><button onclick="submitNumber(4)" class="number active">4</button
-        ><button onclick="submitNumber(5)" class="number">5</button
-        ><button onclick="submitNumber(6)" class="number">6</button
-        ><button onclick="submitNumber(7)" class="number">7</button
-        ><button onclick="submitNumber(8)" class="number">8</button
-        ><button onclick="submitNumber(9)" class="number">9</button
-        ><button onclick="submitNumber(10)" class="number">10</button>
+        <button onclick="selectNumber(1)" class="number">1</button
+        ><button onclick="selectNumber(2)" class="number">2</button
+        ><button onclick="selectNumber(3)" class="number">3</button
+        ><button onclick="selectNumber(4)" class="number active">4</button
+        ><button onclick="selectNumber(5)" class="number">5</button
+        ><button onclick="selectNumber(6)" class="number">6</button
+        ><button onclick="selectNumber(7)" class="number">7</button
+        ><button onclick="selectNumber(8)" class="number">8</button
+        ><button onclick="selectNumber(9)" class="number">9</button
+        ><button onclick="selectNumber(10)" class="number">10</button>
       </div>
       <div class="feedback-text">
         <p>Not likely at all</p>
@@ -29,12 +29,12 @@
       </div>
       <div class="footer-btns">
         <button class="cancel-btn">Cancel</button>
-        <button class="submit-btn">Submit</button>
+        <button class="submit-btn" onclick="submitReview()">Submit</button>
       </div>
     </div>
     <div class="conatiner2">
-      <h2 class="feedback-txt">Thanks, you have selected a rating of : </h2>
-
+      <h2 id="feedback"></h2>
+      <button class="cross-btn">Cancel</button>
     </div>
     <script src="src/index.js"></script>
   </body>
