@@ -1,0 +1,80 @@
+body {
+  background-color: #cfcbf3;
+}
+.container {
+  width: 45%;
+  height: 200px;
+  margin: 14% auto;
+  background-color: #1a1832;
+  padding: 2rem 2rem 5rem 2rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.main_text {
+  font-size: 20pt;
+  color: white;
+  text-align: center;
+  font-weight: 500;
+  margin: 2rem;
+}
+.feedback-numbers {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+}
+.number {
+  border-radius: 8px;
+  padding: 5px 15px 5px 15px;
+  background-color: #433c8c;
+  color: white;
+  font-size: 20px;
+  border-color: #534c9d;
+}
+.feedback-text {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-btns {
+  display: flex;
+  justify-content: space-between;
+}
+.cancel-btn {
+  border-radius: 5px;
+  padding: 5px 25px 5px 25px;
+  background-color: #2a2466;
+  color: white;
+  border-color: #534c9d;
+}
+.submit-btn {
+  border-radius: 5px;
+  padding: 5px 25px 5px 25px;
+  background-color: #786fd8;
+  color: white;
+  border-color: #534c9d;
+}
+.cancel-btn:hover {
+  background-color: red;
+}
+.number:hover {
+  background-color: #cfcbf3;
+}
+.active {
+  background-color: #4caf50;
+  color: white;
+}
+.container2 {
+  width: 425%;
+  height: 100px;
+  margin: 14% auto;
+  background-color: #1a1832;
+  padding: 2rem 2rem 5rem 2rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.feedback-txt {
+  color: white;
+}
